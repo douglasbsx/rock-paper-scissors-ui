@@ -1,0 +1,62 @@
+div {
+	text-align: center;
+}
+
+#header {
+	width: 100%;
+	background-color: coral;
+	padding: 50px 50px 50px 50px;
+}
+
+
+button {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 5px;
+	height: 40px;
+	min-width: 110px;
+}
+
+button:hover {
+	border: 1px solid black;
+	color: black;
+}
+
+#scorePanel {
+	padding: 40px;
+	font-size: 30px;
+}
+
+#playerScore {
+	float: left;
+	width: 25%;
+	font-weight: bold;
+	background-color: blue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#computerScore {
+	float: right;
+	width: 25%;
+	font-weight: bold;
+	background-color: red;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#roundPanel {
+	clear: both;
+	text-align: center;
+	width: 30%;
+	margin: auto;
+	padding: 50px;
+	background-color: pink;
+	border: 5px solid black;
+}
